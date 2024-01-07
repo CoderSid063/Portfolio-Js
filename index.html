@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Icon Link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Font Link -->
+    <!-- <link
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h3>SUDHANSU SEKHAR PANDA</h3>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="hero">
+      <div class="wrapper">
+        <div class="textContainer">
+          <h2><span>Hi, There!</span> I'm SUDHANSU</h2>
+          <h1>Web Developer</h1>
+          <div class="social">
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+            <a href="#" class="btn">Download CV</a>
+          </div>
+        </div>
+      </div>
+      <div class="imageContainer">
+        <img id="personal" src="/hero1.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section class="skills" id="skills">
+      <h1>My <span>Skills</span></h1>
+      <div class="skill">
+        <div class="skill1" id="skill"><i class="ri-html5-fill"></i>HTML</div>
+        <div class="skill2" id="skill"><i class="ri-css3-fill"></i>CSS</div>
+        <div class="skill3" id="skill">
+          <i class="ri-javascript-fill">Js</i>
+        </div>
+        <div class="skill4" id="skill">
+          <i class="ri-reactjs-line"></i>REACT
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h1>My <span>Portfolio</span></h1>
+      <div class="portfolio-content">
+        <div class="row">
+          <img src="Myntra image.jpg" />
+          <div class="main-row">
+            <h5>Myntra clone(React)</h5>
+            <i class="ri-github-fill"></i>
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="Amazon.png" />
+          <div class="main-row">
+            <h5>Amazon clone</h5>
+            <i class="ri-github-fill"></i>
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="movix-logo.png" />
+          <div class="main-row">
+            <h5>MovieLand</h5>
+            <i class="ri-github-fill"></i>
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="Portfolio image.png" />
+          <div class="main-row">
+            <h5>Portfolio(REACT)</h5>
+            <i class="ri-github-fill"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" required placeholder="Enter Your Name" />
+        <input type="email" required placeholder="Enter Email" />
+        <textarea required placeholder="Write Message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>

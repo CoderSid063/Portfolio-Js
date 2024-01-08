@@ -116,10 +116,11 @@ h2 span {
   color: #080808;
 }
 .imageContainer{
-  position:relative;
+  background-size: cover;
   top: -10px;
 }
 #personal{
+  background-size: cover;
   padding-right:80px; 
   height: 500px;
   width: 600px;
